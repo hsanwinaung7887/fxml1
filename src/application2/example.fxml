@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="949.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="581.0" prefWidth="206.0" style="-fx-background-color: #EBE8F9;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="181.0" prefWidth="206.0">
+               <children>
+                  <ImageView fitHeight="128.0" fitWidth="108.0" layoutX="49.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/profile.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="55.0" layoutY="140.0" text="Mr. San Win Aung">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Overview">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/coins%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Orders">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/mobile-notch.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Customers">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/rocket-lunch.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Menus">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/ballot.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Packages">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/book-open-cover.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Setting">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/money-check-edit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="201.0" style="-fx-background-color: #EBE8F9;" text="Sign Out">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/coins.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="45.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="218.0" layoutY="23.0" text="Restaurant Orders">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="218.0" layoutY="176.0" prefHeight="35.0" prefWidth="720.0" style="-fx-background-color: #f6f5fc;" AnchorPane.leftAnchor="218.60000000000002" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Label prefHeight="34.0" prefWidth="90.0" text="Company Name">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="41.0" text="Airport">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="74.0" text="Delivery Date">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="52.0" text="Amount">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="100.0" text="Status">
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="218.0" layoutY="71.0" prefHeight="97.0" prefWidth="726.0" spacing="65.0" style="-fx-background-color: #fff;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="103.0" text="15000" textFill="#2a73ff">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="102.0" text="Total Order" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="101.0" text="3000" textFill="#26bfbc">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="99.0" text="Total delivered" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="101.0" text="1000" textFill="#fa5f7e">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="100.0" text="Pending Order" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="99.0" text="4000" textFill="#f20101">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="103.0" text="Orders on Hold" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="60.0" />
+         </padding>
+      </HBox>
+      <VBox fx:id="pnitems1" layoutX="218.0" layoutY="220.8" prefHeight="350.0" prefWidth="720.0" style="-fx-background-color: #f6f5fc;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="218.60000000000002" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="221.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="720.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="35.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../JavaLibries/icons/rocket-lunch.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="Myanmar New">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="JFX">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="10/11/2025">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="\$1200">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: #fff; -fx-border-color: #2A73FF; -fx-border-radius: 20;" text="active">
+                     <HBox.margin>
+                        <Insets left="72.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </HBox>
+         </children></VBox>
+      <ImageView fitHeight="18.0" fitWidth="14.0" layoutX="879.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../JavaLibries/icons/search.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="615.0" layoutY="28.0" prefHeight="34.0" prefWidth="254.0" style="-fx-border-radius: 20px;" />
+   </children>
+</AnchorPane>
